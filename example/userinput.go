@@ -1,4 +1,4 @@
-package main
+package example
 
 import (
 	"fmt"
@@ -12,5 +12,5 @@ func UserInput() {
 	if err != nil {
 		log.Fatalln(err)
 	}
-	fmt.Printf("Your age is %d which consists of %d characters", age, n)
+	fmt.Printf("Your age is %d\n(%d items successfully scanned)\n", age, n)
 }
